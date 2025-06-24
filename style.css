@@ -1,0 +1,101 @@
+*{
+   
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+margin: 0;
+line-height: 1.8;
+
+}
+.topbar{
+position: relative;
+top: 0;
+left: 0;
+right: 0;
+width: 100%;
+margin-top: 10px;
+padding: 20px;
+margin-bottom: 30px;
+}
+ .topbar nav {
+    float: left;
+}
+.topbar nav a{
+    text-decoration: none;
+    margin: 0px 30px;
+    color: rgb(92, 90, 90);
+    cursor: pointer;
+    width: auto;
+    font-weight: 500;
+    
+
+}
+.topbar nav a:hover{
+    transform: scale(0.3);
+    border-bottom: 1px solid rgb(75, 73, 73) ;
+    transition: 5s;
+
+}
+.topbar nav a:active{
+
+    background-color: black;
+}
+.social{
+float: right;
+justify-content: space-between;
+opacity:.5 ;
+
+}
+.image{
+margin: 0;
+padding: 0;
+    height: 400px;
+    background:no-repeat center center/cover url(image/logo\ tiktok.png);
+}
+
+.article{
+    float: left;
+    width:70% ;
+    height: auto;  
+    z-index: 2;
+    position: relative;
+    box-shadow: 0 15px 20px;
+    overflow: hidden;
+
+}
+.categories{
+float: right;
+position: relative;
+background-color: #ccc;
+width: 30%;
+padding: 40px;
+z-index: 1;
+overflow: hidden;
+
+
+}
+.categories ul{
+list-style-type: none;
+
+}
+.categories  li{
+    color: rgb(68, 66, 66);
+}
+article{
+    overflow: hidden;
+    height: 200px;
+    margin-bottom: 10px;
+    box-shadow: 2px 4px 11px 0px rgba(128,113,113,0.75);
+-webkit-box-shadow: 2px 4px 11px 0px rgba(128,113,113,0.75);
+-moz-box-shadow: 2px 4px 11px 0px rgba(128,113,113,0.75);
+}
+article p{
+    top:0;
+}
+
+article img{
+    float: left;
+    height: 200px;
+    margin-right: 25px;
+}
